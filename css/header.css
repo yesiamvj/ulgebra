@@ -196,21 +196,83 @@ body{
     margin-left:10px;
     margin-right: 10px;
 }
-.c_1 .pageNavdot{
+.c_1 .pageNavdot,c__1.footrStrip{
     background-color: blue;
 }
-.c_2 .pageNavdot{
+.c_2 .pageNavdot,c__2.footrStrip{
     background-color: darkcyan;
 }
-.c_3 .pageNavdot{
+.c_3 .pageNavdot,c__3.footrStrip{
     background-color: darkmagenta;
 }
-.c_4 .pageNavdot{
+.c_4 .pageNavdot,c__4.footrStrip{
     background-color: forestgreen;
 }
-.c_5 .pageNavdot{
+.c_5 .pageNavdot,c__5.footrStrip{
     background-color: darkorange;
 }
-.c_6 .pageNavdot{
+.c_6 .pageNavdot,c__6.footrStrip{
     background-color: rgb(255,0,128);
+}
+.f_ulgebra_brand{
+    text-align: center;
+    margin: 35px 0px;
+}
+.f_ulgebra_text{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.f_ulgebra_text i{
+    font-size: 10px;
+}
+.f_ulgeb_txt{
+    text-align: center;
+}
+.f_ulgeb_brnd_itm{
+    text-align: center;
+    color: grey;
+    margin-bottom: 75px;
+/*     border-bottom: 1px solid; */
+}
+.f_ulgeb_brs h1{
+    margin: 7%;
+    margin-top: 75px;
+    color: silver;
+    padding-bottom: 5px;
+    border-bottom:5px double;
+    margin-bottom: 50px;
+}
+.ulg_brs{
+    text-align: center;
+    color:grey;
+    margin-bottom: 30px;
+}
+.f_cpyrgt{
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+.contStripInr{
+    margin:50px 15%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    padding: 10px 25px;
+}
+.contStripTtl{
+    font-size: 30px;
+    margin:20px 20px 35px 20px;
+}
+.contItm i{
+    font-size: 25px;
+    color: royalblue;
+    margin-right: 20px;
+}
+.contItm{
+    margin: 25px 20px;
+}
+.contItm a{
+    color:grey;
+    font-size: 25px;
+    text-decoration: none;
 }
