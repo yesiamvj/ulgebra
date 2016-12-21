@@ -207,3 +207,66 @@ body{
 .contactSlip:hover .CS_ico{
     color: royalblue;
 }
+.pageSmallDesc{
+    margin: 25px 10%;
+    padding: 20px 25px;
+  //  margin: -5px 10px 20px 10px;
+    background-color: rgba(256,256,256,0.85);
+    line-height: 1.6;
+    background-color: whitesmoke;
+    color: gray;
+}
+.pageSecSmallTtl{
+    font-size: 30px;
+    background-color: rgba(256,256,256,0.5);
+    text-align: center;
+    color:grey;
+}
+.nobgs{
+    background-image: none !important;;
+}
+.serviceItmOuter{
+   // background-color: navy;
+    padding: 10px 5%;
+}
+.serviceInr{
+   // background-color: whitesmoke;
+    
+}
+.serviceCont{
+    padding:10px 5%;
+}
+.serviceTtl{
+    color: orange;
+    font-size: 35px;
+    //font-weight: bold;
+    font-family: Segoe ui;
+    border-bottom: 1px dotted;
+    margin-top: 25px;
+}
+.serviceQuote{
+    color: #c0392b;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.serviceIco{
+    font-size: 65px;
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+.serviceSubItm{
+    display: inline-block;
+    width: 40%;
+    padding: 10px 25px;
+    font-family: segoe ui;
+    background-color: whitesmoke;
+    margin:1px 10px;
+    
+}
+.serviceSubItm i{
+    font-size: 16px;
+    margin-right: 10px;
+}
