@@ -1,0 +1,216 @@
+/* 
+    Created on : 14-Dec-2016, 17:09:42
+    Author     : Vijayakumar
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.pageCoverHoldr{
+    height: 250px;
+    width: 100%;
+    background-image: url('../images/ulgebra/ulgebra_cover.png');
+    background-size:auto 100%;
+    background-position:center 0px;
+    z-index: 1;
+   
+}
+.pageHeader:hover .pageCoverHoldr{
+     animation: 1s forwards covershow;
+}
+@keyframes covershow{
+    100%{
+        background-size:auto 80%;
+    }
+}
+.pageLogoHoldr{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 120px;
+    text-align: center;
+}
+
+.pageLogoInr{
+   /*background-color: rgba(250,250,250,0.75);*/
+    padding: 40px;
+    display: inline-block;
+}
+.pageLogo{
+    display: table-cell;
+    height: 210px;
+    width: 200px;
+    background-image: url('../images/ulgebra/logo_512_transp.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position:center;
+   // background-color: rgba(250,250,250,0.95);
+  
+}
+.pageLogo:hover{
+    animation:1s forwards logorot;
+   // background-size: 90%;
+}
+@keyframes logorot{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.logoSpce{
+    display:table-cell;
+   // background-color: rgba(250,250,250,0.95);
+    width: 40px;
+}
+.pageLogoCont{
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+     background-color: rgba(250,250,250,0.95);
+}
+.pageBrandSepr{
+    display:table-cell;
+    width: 50px;
+}
+.pageBrandName{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    color: white;
+   //background-color: rgba(250,250,250,0.95);
+    padding: 50px 55px 50px 65px;
+   
+   
+}
+.pageBrandName:hover .LogoLet{
+     animation: 2s forwards brandlets;
+}
+@keyframes brandlets{
+   50%{
+        transform: scale(0.5) rotate(1260deg);
+       
+    }
+    100%{
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.LogoLet{
+   
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    padding: 4px 20px 8px;
+}
+.LogoLet._u{
+   
+    background-color: blue;
+}
+.LogoLet._l{
+     background-color:rgb(0,190,190);
+}
+.LogoLet._g{
+     background-color:darkmagenta;
+}
+.LogoLet._e{
+     background-color: forestgreen;
+}
+.LogoLet._b{
+     background-color: darkorange;
+}
+.LogoLet._r{
+     background-color: crimson;
+}
+.LogoLet._a{
+    background-color: royalblue;
+}
+.quoteTxt{
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+     
+}
+.quoteTxt:hover{
+    animation: 10s infinite colorrain;
+    cursor: default;
+}
+@keyframes colorrain{
+    20%{
+        color: blue;
+    }
+    40%{
+        color: darkcyan;
+    }
+    60%{
+        color: darkmagenta;
+    }
+    80%{
+        color: darkgreen;
+    }
+    100%{
+        color: crimson;
+    }
+}
+
+.pageNavHoldr{
+    text-align: center;
+    margin-top: 40px;
+}
+.pageNavItm{
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    font-size: 14px;
+    /*padding:0px 10px;*/
+}
+.pageNavItm{
+    /*border-right:1px solid darkgrey;*/
+}
+.pageNavItm:last-child{
+    border: none;
+}
+.c_1{
+    color: blue;
+}
+.c_2{
+    color: darkcyan;
+}
+.c_3{
+    color: darkmagenta;
+}
+.c_4{
+    color: forestgreen;
+}
+.c_5{
+    color: darkorange;
+}
+.c_6{
+    color: crimson;
+}
+.pageNavdot{
+    display: inline-block;
+    height: 3px;
+    width: 3px;
+    border-radius: 10px;
+    background-color: silver;
+    float:right;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.c_1 .pageNavdot{
+    background-color: blue;
+}
+.c_2 .pageNavdot{
+    background-color: darkcyan;
+}
+.c_3 .pageNavdot{
+    background-color: darkmagenta;
+}
+.c_4 .pageNavdot{
+    background-color: forestgreen;
+}
+.c_5 .pageNavdot{
+    background-color: darkorange;
+}
+.c_6 .pageNavdot{
+    background-color: rgb(255,0,128);
+}

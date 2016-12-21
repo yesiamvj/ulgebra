@@ -1,0 +1,209 @@
+/* 
+    Created on : 14-Dec-2016, 17:09:58
+    Author     : Vijayakumar
+*/
+body{
+    
+}
+.pageContentSection{
+     background-image: url('../images/ulgebra/ulgebra_cover.png');
+}
+.pageSecTtl{
+    background-color: white;
+}
+.pageSecSmall{
+    margin-top: 75px;
+    font-size: 35px;
+    padding:50px 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.pageSecSmall div{
+    display: inline-block;
+}
+.PSSm_ico{
+    font-size: 70px;
+    position: absolute;
+    top: 32px;
+    margin-left: -40px;
+}
+.PSSm_Txt{
+    text-indent: 50px;
+}
+.pageSecTtl{
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pageSecTtl b{
+    font-size: 20px;
+    margin:0px 5px 0px 0px;
+    color: crimson;
+}
+.pageLSecItm{
+    //background-color: darkcyan;
+    color: white;
+    padding: 50px 0px;
+   text-align: center;
+}
+.pageLSecItm div{
+    //display: inline-block;
+}
+.pageLSecItm{
+    padding: 150px 0px;
+}
+.pageLSI_Ico{
+    font-size: 110px;
+   // background-color: rgb(0,193,193);
+    border-radius: 100px;
+    //padding: 30px 40px;
+    color: rgba(0,0,0,0.2);
+  //  float: left;
+    display: inline-block;
+    //float: left;
+    margin-bottom: 40px;
+    
+}
+.pageLSI_Ico:hover i{
+    cursor:default;
+      animation: 2s forwards brandlets;
+    
+}
+.pageLSI_Txt{
+    font-size: 20px;
+    padding:70px 50px;
+   // margin-top: 50px;
+   display: inline-block;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    font-family: segoe ui;
+}
+.pageLSI_Txt .highlit{
+    font-size: 27px;
+}
+.pageHighAns{
+    text-align: center;
+   // background-image: url('../images/ulgebra/ulgebra_cover.png');
+    
+    background-color: rgba(256,256,256,0.5);
+}
+
+.pageLSecItm.sec_1 {
+    background-color: darkcyan;
+}
+.pageLSecItm.sec_2 {
+    background-color: darkmagenta;
+}
+.pageLSecItm.sec_3 {
+    background-color: forestgreen;
+}
+.pageLSecItm.sec_4 {
+    background-color: darkorange;
+}
+.pageLSecItm.sec_5 {
+    background-color: darkorange;
+}
+.sec_1 .PLSI_Tag{
+    color: cyan;
+}
+.sec_2 .PLSI_Tag{
+    color: magenta;
+}
+.sec_3 .PLSI_Tag{
+    color: lightgreen;
+}
+.sec_4 .PLSI_Tag{
+    color: yellow;
+}
+.PLC_Ttl{
+    font-size: 30px;
+    color:darkgrey;
+    margin: 50px 0px 10px 50px;
+}
+.pageHighAns{
+    padding: 200px 0px;
+    text-align: center;
+}
+.PHA_Ico{
+    margin-top: 30px;
+    color: orange;
+    font-size: 100px;
+    display: inline-block;
+    background-color: rgba(256,256,256,1);
+    border-radius: 300px;
+    padding: 35px 50px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+.PHA_Ico:hover i{
+     animation: 2s forwards brandlets;
+}
+.PHA_Txt{
+    color: forestgreen;
+    font-size: 25px;
+    margin-top: -10px;
+      font-size: 27px;
+    padding:75px 50px;
+   // margin-top: 50px;
+   display: inline-block;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+    font-family: segoe ui;
+      background-color: rgba(256,256,256,1);
+}
+.PLSI_Line:not(:last-child){
+    margin-bottom: 25px;
+}
+.PLSI_Tag{
+    color: rgba(0,0,0,0.5);
+    color:;
+    font-family: segoe ui;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.PLSI_Line{
+    
+    font-size: 16px;
+}
+.PLSI_Line .highlitWord{
+    font-size: 27px;
+}
+.sec_3 .pageLSI_Txt,.sec_4 .pageLSI_Txt{
+    padding: 50px 50px; 
+}
+.PHA_Txt .highlit{
+    font-size: 35px;
+}
+.contactSlip{
+    position: fixed;
+/*    //background-color: rgba(0,0,0,0.2);*/
+    bottom: 0px;
+    padding: 15px;
+    text-align: center;
+    z-index:10;
+   
+}
+.contactSlip a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+     color: rgba(0,0,0,0.55);
+    
+}
+.contactSlip .CS_ico{
+    margin-bottom: 5px;
+    color: crimson;
+    color: rgba(0,0,0,0.55);
+    
+}
+.contactSlip:hover a{
+    color: crimson;
+}
+.contactSlip:hover{
+    background-color: rgba(256,256,256,0.5);
+    cursor: pointer;
+    z-index: 10;
+}
+.contactSlip:hover .CS_ico{
+    color: royalblue;
+}
